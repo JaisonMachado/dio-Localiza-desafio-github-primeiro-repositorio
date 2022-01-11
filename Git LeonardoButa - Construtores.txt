@@ -1,0 +1,20 @@
+método especial que contem o mesmo nome do seu tipo de classe, e tem o objetivo de definir valores padrão, 
+limitar uma instância e facilitar a instanciação de um objero:
+
+public class Pessoa{
+	private string nome;
+	private string sobrenome;
+
+	public Pessoa(){}
+
+	public Pessoa(string nome, string sobrenome){ 
+		this.nome=nome;
+		this.sobrenome=sobrenome;}
+	
+	public void Apresentar(){
+		Console.WriteLine($"Nome: {nome} {sobrenome}");}
+Program
+main(){
+
+Pessoa P1 = new Pessoa("Jaison","Machado");
+P1.Apresentar();

@@ -1,0 +1,9 @@
+Podem ser usados para manipular uma variável de maneira controlada e com validacoes:
+
+public class Data{
+	private int mes;
+
+	pub void GetMes(){ return this.mes;}
+	
+	public void SetMes(int mes){
+		if (mes > 0 && mes <= 12){ this.mes = mes;}
